@@ -19,7 +19,6 @@ import HeroSection from "@/components/home/hero";
 import ProjectsSection from "@/components/home/projects";
 import QuoteSection from "@/components/home/quote";
 import SkillsSection from "@/components/home/skills";
-import CollaborationSection from "@/components/home/collaboration";
 import Footer from "@/components/common/footer";
 import Scripts from "@/components/common/scripts";
 import AboutSection from "@/components/home/about";

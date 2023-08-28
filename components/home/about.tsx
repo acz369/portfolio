@@ -87,7 +87,7 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I'm a Frontend Engineer who bridges the gap between development
+        Im a Frontend Engineer who bridges the gap between development
         and design.{" "}
       </span>
       <span
@@ -109,7 +109,7 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I have also worked with agile methodologies such as SCRUM. I'm always looking for new challenges to grow and hone my skills. I'm passionate about creating exceptional digital products and experiences that contribute to the overall success of each project.
+        I have also worked with agile methodologies such as SCRUM. Im always looking for new challenges to grow and hone my skills. Im passionate about creating exceptional digital products and experiences that contribute to the overall success of each project.
       </span>
     </h1>
   );
