@@ -36,6 +36,9 @@ export const TYPED_STRINGS = [
 
 export const EMAIL = "andrea.calderon.zuluaga@gmail.com";
 
+export const assetPath = (path: string): string =>
+  `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${path}`;
+
 export const SOCIAL_LINKS = {
   linkedin: "https://www.linkedin.com/in/acalderonzuluaga/",
   github: "https://github.com/acz369",

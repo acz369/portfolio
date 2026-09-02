@@ -4,7 +4,7 @@
 // This file is licensed under the MIT License.
 // License text available at https://opensource.org/licenses/MIT
 
-import { EMAIL, MENULINKS, SOCIAL_LINKS } from "../../constants";
+import { assetPath, EMAIL, MENULINKS, SOCIAL_LINKS } from "../../constants";
 import Image from "next/image";
 import Button, { ButtonTypes } from "./button";
 
@@ -38,7 +38,7 @@ const Footer = () => {
             target: "_blank",
             rel: "noreferrer",
           }}
-          href="/Andrea_Calderon_Zuluaga_CV.pdf"
+          href={assetPath("/Andrea_Calderon_Zuluaga_CV.pdf")}
         ></Button>
         <Button
           classes="ml-3"
@@ -59,7 +59,7 @@ const Footer = () => {
       className="w-full relative select-none bg-cover flex flex-col items-stretch"
     >
       <img
-        src="/footer-curve.svg"
+        src={assetPath("/footer-curve.svg")}
         alt="Footer"
         className="w-full"
         loading="lazy"
