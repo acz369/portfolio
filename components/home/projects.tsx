@@ -128,10 +128,10 @@ const ProjectsSection = ({ isDesktop }: IDesktop) => {
       }`}
       ref={sectionTitleElementRef}
     >
-      <p className="section-title-sm seq">PROJECTS</p>
-      <h1 className="section-heading seq mt-2">My Works</h1>
+      <p className="section-title-sm seq">SELECTED WORK</p>
+      <h1 className="section-heading seq mt-2">Digital projects</h1>
       <h2 className="text-2xl md:max-w-3xl w-full seq max-w-sm mt-2">
-        I have contributed in a lot of projects while I was working and also I developed personal projects as you could see below.
+        A selection of web experiences and products I have contributed to throughout my engineering career.
       </h2>
     </div>
   );

@@ -26,14 +26,14 @@ const Footer = () => {
   const renderFooterContent = (): React.ReactNode => (
     <>
       <h1 className="font-medium text-3xl md:text-4xl text-center">
-        Connect with me on social media.
+        Let&apos;s discuss architecture, integration, and technical delivery.
       </h1>
       <div className="flex mt-8">{renderSocialIcons()}</div>
       <div className="flex mt-8">
         <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
-          name="Resume"
+          name="Download CV"
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
@@ -43,7 +43,7 @@ const Footer = () => {
         <Button
           classes="ml-3"
           type={ButtonTypes.WHITE}
-          name="Let's Talk"
+          name="Connect"
           href={SOCIAL_LINKS.linkedin}
           otherProps={{
             target: "_blank",

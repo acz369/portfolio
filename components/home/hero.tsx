@@ -83,7 +83,7 @@ const HeroSection = React.memo(() => {
     <div className={HERO_STYLES.CONTENT}>
       <div className="md:mb-4 mb-2">
         <h2 className="text-4xl seq">Hello 👋🏻</h2>
-        <h1 className="text-3xl seq">I`m Andrea Calderon</h1>
+        <h1 className="text-3xl seq">I&apos;m Andrea Calderon Zuluaga</h1>
       </div>
       <p className="mb-4">
         <span className={HERO_STYLES.TYPED_SPAN} ref={typedSpanElement}></span>
@@ -93,7 +93,7 @@ const HeroSection = React.memo(() => {
         <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
-          name="Resume"
+          name="Download CV"
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
@@ -103,7 +103,7 @@ const HeroSection = React.memo(() => {
         <Button
           classes="ml-3"
           type={ButtonTypes.PRIMARY}
-          name="Let's Talk"
+          name="Connect"
           href={SOCIAL_LINKS.linkedin}
           otherProps={{
             target: "_blank",

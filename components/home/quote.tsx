@@ -50,7 +50,7 @@ const QuoteSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I like to be a <span className="text-strong font-bold">leader</span> and support my team to grow. 
+        Architecture is where <span className="text-strong font-bold">business needs</span>, technology, and delivery come together.
       </h1>
     </div>
   );

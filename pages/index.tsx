@@ -22,6 +22,7 @@ import SkillsSection from "@/components/home/skills";
 import Footer from "@/components/common/footer";
 import Scripts from "@/components/common/scripts";
 import AboutSection from "@/components/home/about";
+import ExperienceSection from "@/components/home/experience";
 
 const DEBOUNCE_TIME = 100;
 
@@ -79,6 +80,7 @@ export default function Home() {
           {renderBackdrop()}
           <HeroSection />
           <AboutSection />
+          <ExperienceSection />
           <ProjectsSection isDesktop={isDesktop} />
           <QuoteSection />
           <SkillsSection />

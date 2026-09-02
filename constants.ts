@@ -15,8 +15,8 @@ export const MENULINKS = [
     ref: "home",
   },
   {
-    name: "Works",
-    ref: "works",
+    name: "Experience",
+    ref: "experience",
   },
   {
     name: "Skills",
@@ -29,9 +29,9 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "I design and develop web pages",
-  "I develop modern frontend apps",
-  "I design dynamic user experience"
+  "Solution Architect",
+  "Technical Team Lead",
+  "Cloud & Integration Architecture"
 ];
 
 export const EMAIL = "andrea.calderon.zuluaga@gmail.com";
@@ -111,15 +111,51 @@ export const SKILLS = {
     "css"
   ],
   backend: [
-    "next",
     "java",
     "python",
-    "docker"
+    "docker",
+    "SQL"
   ],
-  userInterface: ["figma"],
+  userInterface: ["figma", "angular"],
   testing: ["jest", "cypress"],
-  other: ["git", "webpack", "storybook", "babel", "Bitbucket", "SQL", "jenkins", "flutter"],
+  other: ["git", "jenkins", "Bitbucket", "webpack", "babel"],
 };
+
+export const EXPERIENCE = [
+  {
+    role: "Solution Architect / Technical Team Lead",
+    company: "Europastry",
+    period: "Feb 2024 - Present",
+    summary:
+      "Leads a multidisciplinary team of approximately 15 people across architecture, development, support, delivery, and implementation.",
+    highlights: [
+      "Defines enterprise integration architecture across JDE, OutSystems, Azure, MuleSoft, APIs, databases, and internal business applications.",
+      "Guides cloud adoption, Java modernization, delivery planning, technical estimation, risk identification, and architecture documentation.",
+    ],
+  },
+  {
+    role: "Implementation Analyst / Frontend Engineer",
+    company: "YR",
+    period: "Nov 2022 - Feb 2024",
+    summary:
+      "Built responsive digital experiences and coordinated delivery for 3D product personalization projects.",
+    highlights: [
+      "Developed maintainable React, JavaScript, and TypeScript applications with reusable components and consistent user flows.",
+      "Improved performance and release practices with Google Cloud Platform, Webpack, Babel, Jest, Cypress, GitHub, GitLab, and Bitbucket.",
+    ],
+  },
+  {
+    role: "Developer",
+    company: "University of Antioquia",
+    period: "Aug 2020 - Sep 2021",
+    summary:
+      "Contributed to institutional digital solutions across frontend, backend, database, and user experience work.",
+    highlights: [
+      "Developed and maintained applications using WordPress, PHP, React, JavaScript, Docker, and MySQL.",
+      "Partnered with academic and administrative teams to align technical solutions with user and institutional needs.",
+    ],
+  },
+];
 
 export enum Branch {
   LEFT = "leftSide",

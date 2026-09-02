@@ -87,29 +87,28 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        Im a Frontend Engineer who bridges the gap between development
-        and design.{" "}
+        I am a Solution Architect and Technical Team Lead designing enterprise software, cloud, and integration solutions.{" "}
       </span>
       <span
         className={`about-2 leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        As a front-end developer, I stand out for my leadership, taking responsibility, and motivating my team to achieve goals efficiently. Responsibility is fundamental for me, as is meeting deadlines with high quality. 
+        I translate business needs into scalable, maintainable, and executable technical solutions, connecting strategy, architecture, and delivery.
       </span>
       <span
         className={`about-3 first-line:leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        My experience includes technologies such as React, Node.js, and JavaScript, as well as working with Google Cloud Functions and databases to create scalable and efficient solutions.
+        My work spans Azure, MuleSoft, JDE, OutSystems, APIs, databases, Java modernization, and modern frontend engineering.
       </span>
       <span
         className={`about-4 first-line:leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I have also worked with agile methodologies such as SCRUM. Im always looking for new challenges to grow and hone my skills. Im passionate about creating exceptional digital products and experiences that contribute to the overall success of each project.
+        I lead technical decisions, mentor multidisciplinary teams, and create the documentation and delivery practices that help organisations evolve with confidence.
       </span>
     </h1>
   );
